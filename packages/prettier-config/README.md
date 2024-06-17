@@ -1,3 +1,3 @@
-## @harmony/prettier-config
+## @river/prettier-config
 
 A shared prettier configuration between packages
