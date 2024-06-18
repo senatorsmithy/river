@@ -1,11 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export const RootRoute = () => {
     const [count, setCount] = useState(0)
-
-    useEffect(() => {
-        console.log('Hello world!', count)
-    }, [])
 
     return (
         <div className="container flex min-h-screen flex-col items-center justify-center">

@@ -33,4 +33,5 @@
     "integration",
   ],
   "go.buildTags": "integration",
+  "typescript.tsdk": "node_modules/typescript/lib",
 }
