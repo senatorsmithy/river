@@ -1,7 +1,7 @@
-import path from 'path'
 import react from '@vitejs/plugin-react'
-import { defineConfig, type PluginOption } from 'vite'
-import checker from 'vite-plugin-checker'
+import { defineConfig } from 'vite'
+import { default as checker } from 'vite-plugin-checker'
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
