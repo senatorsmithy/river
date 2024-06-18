@@ -1,6 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { RootLayout } from './root'
-import { ComponentsRoute } from './components'
 
 export const router = createBrowserRouter([
     {
@@ -9,8 +8,12 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: 'components',
-                element: <ComponentsRoute />,
-                // lazy: () => import('./components'),
+                lazy: async () => {
+                    const { ComponentsRoute } = await import('./components')
+                    return {
+                        Component: ComponentsRoute,
+                    }
+                },
             },
         ],
     },
