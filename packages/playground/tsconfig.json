@@ -15,7 +15,7 @@
         "isolatedModules": true,
         "noEmit": true,
         "jsx": "react-jsx",
-        "incremental": true,
+        "incremental": true
     },
     "include": ["src", ".eslint.cjs", "vite.config.ts"],
     "references": [{ "path": "./tsconfig.node.json" }]
