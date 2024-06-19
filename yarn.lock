@@ -3195,9 +3195,66 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@river-build/eslint-config@*, @river-build/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@river-build/eslint-config@workspace:packages/eslint-config"
+  languageName: unknown
+  linkType: soft
+
 "@river-build/generated@workspace:^, @river-build/generated@workspace:packages/generated":
   version: 0.0.0-use.local
   resolution: "@river-build/generated@workspace:packages/generated"
+  languageName: unknown
+  linkType: soft
+
+"@river-build/playground@workspace:packages/playground":
+  version: 0.0.0-use.local
+  resolution: "@river-build/playground@workspace:packages/playground"
+  dependencies:
+    "@hookform/resolvers": ^3.6.0
+    "@radix-ui/react-dialog": ^1.0.5
+    "@radix-ui/react-icons": ^1.3.0
+    "@radix-ui/react-label": ^2.0.2
+    "@radix-ui/react-select": ^2.0.0
+    "@radix-ui/react-slot": ^1.0.2
+    "@radix-ui/react-switch": ^1.0.3
+    "@river-build/eslint-config": "*"
+    "@river-build/prettier-config": "*"
+    "@types/node": ^20.5.0
+    "@types/react": ^18.2.66
+    "@types/react-dom": ^18.2.22
+    "@typescript-eslint/eslint-plugin": ^6.10.0
+    "@typescript-eslint/parser": ^6.10.0
+    "@vitejs/plugin-react": ^4.2.1
+    autoprefixer: ^10.4.19
+    class-variance-authority: ^0.7.0
+    clsx: ^2.1.1
+    eslint: ^8.53.0
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-react: ^7.34.2
+    eslint-plugin-react-hooks: ^4.6.0
+    postcss: ^8.4.38
+    prettier: ^2.8.8
+    prettier-plugin-tailwindcss: ^0.4.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-hook-form: ^7.52.0
+    react-router-dom: ^6.23.1
+    tailwind-merge: ^2.3.0
+    tailwindcss: ^3.4.4
+    tailwindcss-animate: ^1.0.7
+    typescript: ^5.1.6
+    vite: ^5.0.10
+    vite-plugin-checker: ^0.6.4
+    zod: ^3.23.8
+  languageName: unknown
+  linkType: soft
+
+"@river-build/prettier-config@*, @river-build/prettier-config@workspace:packages/prettier-config":
+  version: 0.0.0-use.local
+  resolution: "@river-build/prettier-config@workspace:packages/prettier-config"
+  peerDependencies:
+    prettier: ^2.8.8
   languageName: unknown
   linkType: soft
 
@@ -3332,20 +3389,6 @@ __metadata:
     vite: ^5.0.10
     vite-plugin-checker: ^0.6.4
     vite-tsconfig-paths: ^4.3.1
-  languageName: unknown
-  linkType: soft
-
-"@river/eslint-config@*, @river/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@river/eslint-config@workspace:packages/eslint-config"
-  languageName: unknown
-  linkType: soft
-
-"@river/prettier-config@*, @river/prettier-config@workspace:packages/prettier-config":
-  version: 0.0.0-use.local
-  resolution: "@river/prettier-config@workspace:packages/prettier-config"
-  peerDependencies:
-    prettier: ^2.8.8
   languageName: unknown
   linkType: soft
 
@@ -12643,49 +12686,6 @@ __metadata:
   checksum: 4b305c834b912ddcc8a0fe77530c0b0321fe340396f84cbb87aecdbc126606f47f2178f23b8639e71a4870f9631c7217aef52ffed0ae17ea2dbbe7e43d116a6e
   languageName: node
   linkType: hard
-
-"playground@workspace:packages/playground":
-  version: 0.0.0-use.local
-  resolution: "playground@workspace:packages/playground"
-  dependencies:
-    "@hookform/resolvers": ^3.6.0
-    "@radix-ui/react-dialog": ^1.0.5
-    "@radix-ui/react-icons": ^1.3.0
-    "@radix-ui/react-label": ^2.0.2
-    "@radix-ui/react-select": ^2.0.0
-    "@radix-ui/react-slot": ^1.0.2
-    "@radix-ui/react-switch": ^1.0.3
-    "@river/eslint-config": "*"
-    "@river/prettier-config": "*"
-    "@types/node": ^20.5.0
-    "@types/react": ^18.2.66
-    "@types/react-dom": ^18.2.22
-    "@typescript-eslint/eslint-plugin": ^6.10.0
-    "@typescript-eslint/parser": ^6.10.0
-    "@vitejs/plugin-react": ^4.2.1
-    autoprefixer: ^10.4.19
-    class-variance-authority: ^0.7.0
-    clsx: ^2.1.1
-    eslint: ^8.53.0
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-react: ^7.34.2
-    eslint-plugin-react-hooks: ^4.6.0
-    postcss: ^8.4.38
-    prettier: ^2.8.8
-    prettier-plugin-tailwindcss: ^0.4.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-hook-form: ^7.52.0
-    react-router-dom: ^6.23.1
-    tailwind-merge: ^2.3.0
-    tailwindcss: ^3.4.4
-    tailwindcss-animate: ^1.0.7
-    typescript: ^5.1.6
-    vite: ^5.0.10
-    vite-plugin-checker: ^0.6.4
-    zod: ^3.23.8
-  languageName: unknown
-  linkType: soft
 
 "pluralize@npm:^8.0.0":
   version: 8.0.0

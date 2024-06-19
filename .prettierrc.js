@@ -1,3 +1,3 @@
 module.exports = {
-    ...require('@river/prettier-config'),
+    ...require('@river-build/prettier-config'),
 }

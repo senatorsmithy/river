@@ -3,6 +3,6 @@
  * @type {import("prettier").Config}
  */
 module.exports = {
-  ...require("@river/prettier-config"),
+  ...require("@river-build/prettier-config"),
   plugins: ["prettier-plugin-tailwindcss"],
 };

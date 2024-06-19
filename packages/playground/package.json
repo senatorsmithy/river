@@ -1,5 +1,5 @@
 {
-    "name": "playground",
+    "name": "@river-build/playground",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -28,8 +28,8 @@
         "zod": "^3.23.8"
     },
     "devDependencies": {
-        "@river/eslint-config": "*",
-        "@river/prettier-config": "*",
+        "@river-build/eslint-config": "*",
+        "@river-build/prettier-config": "*",
         "@types/node": "^20.5.0",
         "@types/react": "^18.2.66",
         "@types/react-dom": "^18.2.22",
